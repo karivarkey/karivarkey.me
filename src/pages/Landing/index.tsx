@@ -1,9 +1,10 @@
-import React from "react";
-
-type Props = {};
-
-const Landing = (props: Props) => {
-  return <div>Landing</div>;
+import Header from "../../components/header/Header";
+const Landing = () => {
+  return (
+    <div className="bg-theme-black h-screen max-h-screen">
+      <Header />
+    </div>
+  );
 };
 
 export default Landing;
