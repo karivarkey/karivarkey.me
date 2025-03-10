@@ -1,9 +1,13 @@
-import React from "react";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 
-type Props = {};
+import Landing from "./pages/Landing";
 
-const App = (props: Props) => {
-  return <div className="bg-red-900">App</div>;
-};
-
-export default App;
+export default function App() {
+  return (
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Landing />} />
+      </Routes>
+    </BrowserRouter>
+  );
+}
