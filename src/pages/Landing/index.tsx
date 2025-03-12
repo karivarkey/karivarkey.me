@@ -7,11 +7,11 @@ import Footer from "../../components/footer/Footer";
 const Landing = () => {
   return (
     <div
-      className="h-screen max-h-screen overflow-hidden bg-theme-black justify-between flex flex-col"
+      className="min-h-screen flex flex-col justify-between bg-theme-black"
       style={{
         backgroundImage: `url(${
           window.innerWidth <= 640 ? HomeMobileBg : HomeBg
-        })`, // Switch based on screen width
+        })`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
@@ -34,7 +34,7 @@ const Landing = () => {
           </div>
         </div>
       </div>
-      <div className="h-1/12 px-10 sm:my-5 items-end ">
+      <div className="h-1/12 px-10 sm:my-5 items-end">
         <Footer />
       </div>
     </div>
