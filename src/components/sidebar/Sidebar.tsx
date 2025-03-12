@@ -1,8 +1,4 @@
-import React from "react";
-
-type Props = {};
-
-const Sidebar = (props: Props) => {
+const Sidebar = () => {
   return (
     <div className="flex flex-col justify-around h-full font-poppins font-semibold text-white text-3xl">
       {["Home", "PROJECTS", "Contact"].map((item, index) => (

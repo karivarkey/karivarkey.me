@@ -3,9 +3,7 @@ import Gmail from "./../../assets/gmail.svg";
 import Instagram from "./../../assets/instagram.svg";
 import Linkedin from "./../../assets/linkedin.svg";
 
-type Props = {};
-
-const Footer = (props: Props) => {
+const Footer = () => {
   return (
     <div className="w-full text-white py-4 px-6 flex flex-col bg-gradient-to-b from-transparent to-black sm:flex-row items-center justify-center sm:justify-between">
       {/* Desktop text (Hidden on small screens) */}
