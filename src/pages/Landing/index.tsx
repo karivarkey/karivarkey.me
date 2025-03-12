@@ -7,7 +7,7 @@ import Footer from "../../components/footer/Footer";
 const Landing = () => {
   return (
     <div
-      className="min-h-screen flex flex-col justify-between bg-theme-black"
+      className="min-h-screen h-dvh flex flex-col justify-between bg-theme-black"
       style={{
         backgroundImage: `url(${
           window.innerWidth <= 640 ? HomeMobileBg : HomeBg
